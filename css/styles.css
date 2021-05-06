@@ -1,0 +1,156 @@
+#title{
+    background-image: linear-gradient(#eb346e,#34baeb);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:'Montage' ;
+    font-weight: bolder;
+     
+} 
+h2{
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading{
+    font-family: 'Montserrat-Bold 700', serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+    font-weight:bolder;
+    padding-right: 2.5rem;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+  .navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+font-weight: bold;
+}
+.navbar{
+    padding:0 0 4.5rem ;
+}  
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+.hoi{
+    border: 0px;
+    color: black;
+}
+/* Download buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.title-image{
+    width: 500px; 
+    padding: 20px;
+}
+
+/* Features section */
+#features{
+ padding: 7% 15%;
+ background-color: white;
+}
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:  #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+     text-align: center;
+     background-color:#ef8172;
+     color: #fff;
+
+}
+.testimonial-image{
+     width: 20%;
+     border-radius: 100%;
+     margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color:#ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media(max-width: 1024px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static; 
+        transform: rotate(0);
+    }
+}
+
+.find{
+    font-family: 'Montage';
+    font-weight: bold;
+    font-size: 5rem;
+    text-align: center;
+    color: #fff;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+#footer{
+    text-align: center;
+    padding:7% 15%;
+}
+.awesome{
+    margin: 20px 10px;
+    color: #000000;
+}
+.awesome:hover{
+    color: blue;
+}
+.copyright{
+    line-height: 2.5;
+}
